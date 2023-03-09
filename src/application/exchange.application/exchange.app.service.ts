@@ -14,7 +14,7 @@ export class ExchangeAppService implements IExchangeAppService {
         } 
 
         if(from == 'USD') {
-            
+            converted_value = value * value_to;
         }
     }
 
