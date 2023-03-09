@@ -7,5 +7,6 @@
   "semi": true,
   "quoteProps": "as-needed",
   "bracketSpacing": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "endOfLine": "auto"
 }

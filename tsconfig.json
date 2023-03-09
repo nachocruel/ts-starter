@@ -26,7 +26,9 @@
     "inlineSourceMap": false,
     "noEmit": false,
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "rootDir": "./src",
+    "esModuleInterop": true
   },
   "include": ["src", "test"]
 }
