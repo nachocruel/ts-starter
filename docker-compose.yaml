@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  alpine-sqs:
+    image: roribio16/alpine-sqs:latest
+    ports:
+       - "9325:9325"
+  app:
+    image: exchange/app
+    build:
+      dockerfile: './Dockerfile'
+    ports:
+      - 3000:3000
+    depends_on: 
+      - alpine-sqs
